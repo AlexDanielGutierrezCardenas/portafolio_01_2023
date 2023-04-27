@@ -3,7 +3,7 @@ import Layout from '@/components/Layout/Layout'
 import Head from 'next/head'
 import Image from 'next/image'
 import React, { useEffect, useRef } from 'react'
-import profilePic from "../../public/images/profile/developer-pic-2.jpg"
+import profilePic from "../../public/images/profile/perfil.png"
 import { motion, useInView, useMotionValue, useSpring } from 'framer-motion'
 import Skills from '@/components/Skills/Skills'
 import Esperience from '@/components/Experience/Esperience'
@@ -74,19 +74,19 @@ cada proyecto en el que trabajo. Espero con ansias la oportunidad de aportar mis
       <span className='inline-block text-7x1 font-bold'>
        <AnimatedNumbers value={50}/>+ 
       </span>
-      <h2 className='text-x1 font-medium capitalize text-dark/75'>clientes satisfechos</h2>
+      <h2 className='text-x1 font-medium capitalize text-dark/75 dark:text-light'>clientes satisfechos</h2>
     </div>
     <div className='flex flex-col items-end justify-center'>
       <span className='inline-block text-7x1 font-bold'>
       <AnimatedNumbers value={40}/>+
       </span>
-      <h2 className='text-x1 font-medium capitalize text-dark/75'>proyectos completados</h2>
+      <h2 className='text-x1 font-medium capitalize text-dark/75 dark:text-light'>proyectos completados</h2>
     </div>
     <div className='flex flex-col items-end justify-center'>
       <span className='inline-block text-7x1 font-bold'>
       <AnimatedNumbers value={4}/>+
       </span>
-      <h2 className='text-x1 font-medium capitalize text-dark/75'>años de experiencia</h2>
+      <h2 className='text-x1 font-medium capitalize text-dark/75 dark:text-light'>años de experiencia</h2>
     </div>
 </div>
             
